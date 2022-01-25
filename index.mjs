@@ -18,8 +18,20 @@ date.today=format(new Date(), 'PPPPpppp')
 date.today_date=startOfToday()
 date.today_date_time=new Date(day)
 
+//------------------------------------------ Dates ---------------------------------------// 
+
 date.today_date_formatted=format(new Date(), 'PPPP')
 date.today_date_time_formatted=format(new Date(), 'PPPPpppp')
+
+//------------------------------------------ Countdown ---------------------------------------// 
+
+date.countdown_to_new_year_months = null
+date.countdown_to_new_year_weeks = null
+date.countdown_to_new_year_days = null
+date.countdown_to_new_year_hours = null
+date.countdown_to_new_year_minutes = null
+date.countdown_to_new_year_seconds = null
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -95,6 +107,7 @@ date.next_quarter_days_until        = null //days
 date.next_quarter_weeks_until       = null //weeks
 date.next_quarter_months_until      = null //months
 /////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 
